@@ -35,7 +35,7 @@ class Triangle implements Shape{
 		this.height = height;   
 	}   
 	public double getArea(){   	
-		return base * height;   
+		return base * height * 0.5;   
 	}   
 	public String toString(){   	
 		return "This is Triangle\nArea : " + String.valueOf(this.getArea()) + "\n";   
