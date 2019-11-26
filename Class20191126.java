@@ -4,7 +4,7 @@ public class Class20191126 {
 		Rectangle r = new Rectangle(4.0, 5.0);     
 		System.out.println(r.toString());     
 		Triangle t = new Triangle(3.0, 4.0);     
-		System.out.println(t.toString());   
+		System.out.println(t);   
 	} 
 }  
 
